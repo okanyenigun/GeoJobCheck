@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "GeoJobCheck",
+    "version": "1.0.0",
+    "description": "Check if the job lets you apply from your location",
+    "content_scripts": [
+        {
+            "matches": ["https://www.linkedin.com/jobs/*"],
+            "js": ["content.js"]
+        }
+
+    ]
+}
